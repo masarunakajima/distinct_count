@@ -1,7 +1,7 @@
 
 DIR=src
 CC=g++
-CFLAGS=-std=c11 -Wall -g -pg -I$(DIR)/smithlab_cpp -I$(DIR)
+CFLAGS=-std=c++11 -Wall -g -I$(DIR)/smithlab_cpp -I$(DIR)
 LDFLAGS=-lsmithlab_cpp
 LIBS= -L$(DIR)/smithlab_cpp -lsmithlab_cpp
 objects = $(DIR)/{utils,constants}.o 

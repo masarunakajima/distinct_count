@@ -55,4 +55,17 @@ Here is the list of options.
 | -v, -verbose | Enable verbose output |
 | -about | print about message |
 
+## Output
+
+The output of 
+```bash
+./count_dist examples/input1.in
+```
+would be
+```
+Number of structures
+Total   : 24664534989415
+Number of distinguishable structures
+Total   : 12332271565072
+```
 
