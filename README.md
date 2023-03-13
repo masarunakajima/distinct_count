@@ -9,4 +9,10 @@ and computes the number of distinguishable structures.
 - Boost
 
 
+## Installation
 
+```bash
+git clone git@github.com:masarunakajima/distinguishable_count.git
+cd distinguishable_count
+make 
+```
