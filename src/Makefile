@@ -1,8 +1,9 @@
 SUB=smithlab_cpp
+SUB2=nlohmann
 
 CC=g++
 
-CFLAGS=-std=c11 -Wall -g -pg -I$(SUB)
+CFLAGS=-std=c11 -Wall -g -pg -I$(SUB) -I$(SUB2)
 LDFLAGS=-lsmithlab_cpp
 LIBS= -L$(SUB) -lsmithlab_cpp
 

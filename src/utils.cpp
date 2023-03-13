@@ -1,5 +1,9 @@
 #include "utils.hpp"
 
+#include "OptionParser.hpp"
+#include "smithlab_utils.hpp"
+#include "smithlab_os.hpp"
+
 using std::string;
 using std::vector;
 using std::cout;
@@ -18,7 +22,7 @@ using std::make_tuple;
 using std::get;
 using std::stringstream;
 
-using json = nlohmann::json;
+//using json = nlohmann::json;
 
 using namespace ss_names;
 

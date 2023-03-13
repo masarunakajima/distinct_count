@@ -28,10 +28,10 @@
 #include <cstdlib>
 #include <algorithm>
 
-#include "nlohmann/json.hpp"
-//#include "OptionParser.hpp"
-//#include "smithlab_utils.hpp"
-//#include "smithlab_os.hpp"
+//#include "nlohmann/json.hpp"
+#include "OptionParser.hpp"
+#include "smithlab_utils.hpp"
+#include "smithlab_os.hpp"
 
 #include "constants.hpp"
 
