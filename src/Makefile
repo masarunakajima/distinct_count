@@ -3,7 +3,7 @@ SUB2=nlohmann
 
 CC=g++
 
-CFLAGS=-std=c11 -Wall -g -pg -I$(SUB) -I$(SUB2)
+CFLAGS=-std=c++11 -Wall -g -I$(SUB) -I$(SUB2)
 LDFLAGS=-lsmithlab_cpp
 LIBS= -L$(SUB) -lsmithlab_cpp
 

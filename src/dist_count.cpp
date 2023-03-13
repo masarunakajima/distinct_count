@@ -142,25 +142,23 @@ main(int argc, const char **argv) {
     string param_dir;
     // run mode flags
     bool VERBOSE = false;
-    double T = 37.0;
+    //double T = 37.0;
 
     const string description =
-      "Calculate free energy of secondary structure for a particular\
-      sequence. The input file must contain the sequence in the first line\
-      and the secondary structure in the dot-parenthesis notation in the\
-      seconda line.";
+      "Computes the number of distinguishable secondary structures for\
+      one or more RNA sequences.";
 
     /****************** COMMAND LINE OPTIONS ********************/
     OptionParser opt_parse(strip_path(argv[0]),
                            description, "<sequence-structure-file>");
     opt_parse.add_opt("out", 'o', "output file (default: stdout)",
                       false, outfile);
-    opt_parse.add_opt("params", 'p', "parameter name (default: rna1995)",
-                      false, param_name);
-    opt_parse.add_opt("paramdir", 'd', "parameter directory",
-                      false, param_dir);
-    opt_parse.add_opt("temp", 't', "temeprature in celcius (default: 37)",
-                      false, T);
+    //opt_parse.add_opt("params", 'p', "parameter name (default: rna1995)",
+                      //false, param_name);
+    //opt_parse.add_opt("paramdir", 'd', "parameter directory",
+                      //false, param_dir);
+    //opt_parse.add_opt("temp", 't', "temeprature in celcius (default: 37)",
+                      //false, T);
     opt_parse.add_opt("verbose", 'v', "print more run info", false, VERBOSE);
     opt_parse.set_show_defaults();
     vector<string> leftover_args;
